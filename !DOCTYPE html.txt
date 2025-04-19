@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lydia Yeshitla | Pro Bono Consulting</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #0a0a23; color: #fff; padding: 1rem 0; text-align: center; }
+    nav { background: #f4f4f4; padding: 0.5rem 1rem; text-align: center; }
+    nav a { margin: 0 1rem; text-decoration: none; color: #333; font-weight: bold; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    footer { text-align: center; padding: 1rem; background: #0a0a23; color: white; font-size: 0.9rem; }
+    .button { background: #0a0a23; color: #fff; padding: 0.5rem 1rem; text-decoration: none; border-radius: 5px; }
+    form { display: flex; flex-direction: column; }
+    input, textarea { margin-bottom: 1rem; padding: 0.75rem; font-size: 1rem; }
+    input[type="submit"] { background: #0a0a23; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lydia Yeshitla</h1>
+  <p>Pro Bono Consulting for Ethiopian HealthTech Businesses</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I'm Lydia Yeshitla, a private equity investor offering free strategic consulting to health tech startups and organizations based in Ethiopia. My mission is to support emerging businesses that are improving healthcare access and quality through technology. I am passionate about using my expertise to help entrepreneurs build sustainable, impactful ventures.</p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Business Strategy Development</li>
+    <li>Market Research and Competitive Analysis</li>
+    <li>Go-to-Market Planning</li>
+    <li>Operational and Financial Consulting</li>
+    <li>Pitch Deck and Fundraising Support</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>If you are a health tech entrepreneur based in Ethiopia, I'd love to hear from you. Please fill out the form below or email me directly at <a href="mailto:lydiayesh@gmail.com">lydiayesh@gmail.com</a>.</p>
+  <form action="mailto:lydiayesh@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send">
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Lydia Yeshitla. All rights reserved.
+</footer>
+
+</body>
+</html>
